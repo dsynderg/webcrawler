@@ -74,7 +74,7 @@ def getlocation(html):
     location = html.find_all('h1', class_="CurrentConditions--location--yub4l")
     return location[0].text
 def weather_webcrawler():
-    url = 'https://weather.com/weather/today/l/ea835c43eb02f0cf867f2174064b6a7dc60d2358338d270fb0d6134abb8f335e'
+    url = 'https://weather.com/weather/today/l/ea835c43eb02f0cf867f2174064b6a7dc60d2358338d270fb0d6134abb8f335e' #this url can be replaced with you home town
     # user_url = input("please enter your url: ")
     # if user_url != "":
     #     url = user_url
